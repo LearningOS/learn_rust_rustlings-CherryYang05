@@ -55,7 +55,6 @@ impl From<ParseFloatError> for ParseClimateError {
 // The `Display` trait allows for other code to obtain the error formatted
 // as a user-visible string.
 impl Error for ParseClimateError {
-
 }
 
 impl Display for ParseClimateError {
